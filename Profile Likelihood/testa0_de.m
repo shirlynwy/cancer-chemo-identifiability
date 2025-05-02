@@ -29,7 +29,7 @@ arst = a0*(drug^arstexp)/(ka^arstexp + (drug^arstexp));
 adth = d0*(drug^adthexp)/(kd^adthexp + (drug^adthexp));
 arcv = r0;
 
-% The differntial equations
+% The differntial equations (Taxol equation 2 in paper)
 
 F = [-lam*y(1) + aRP*y(2)*Lfac - arst*y(1) + arcv*y(3)
      2*lam*y(1) - aRP*y(2)*Lfac

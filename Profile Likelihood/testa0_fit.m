@@ -1,3 +1,4 @@
+close all
 clear all
 
 % name    a0        ka        r0        d0        kd    

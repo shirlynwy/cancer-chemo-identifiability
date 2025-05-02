@@ -1,4 +1,5 @@
 clear all
+close all
 % Data from Terzis et al. Brit J Cancer 1997;75:1744.
 % From Bowman et al. Glia 1999;27:22, glioma cell volume is 0.916
 % picoliters, 1 mm^3 = 1e6 pl or ~1.091 million cells
